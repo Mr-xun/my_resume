@@ -112,38 +112,38 @@ export default class Project extends React.Component {
                         <Timeline.Item>
                             <div className="project-item">
                                 <div className="item-title">
-                                    真好玩--移动端在线游戏（2017/03 -- 2017/08）
+                                    乐蜂网（移动端） （2017/03 -- 2017/08）
                                     <a className="item-link"
-                                        href="http://m.dolapocket.com/#/index"
+                                        href="http://w.lefeng.com/"
                                         target="_blank">
                                         <i className="iconfont icon-fuzhilianjie"></i>网址
                                     </a>
                                 </div>
                                 <div className="item-info">
                                     <div className="item-desc">
-                                        一块基于移动端在线试玩游戏平台，让用户更容易加入
+                                        一款美妆购物网站，提供各类的流行信息、时尚情报、生活品味以及购物乐趣。
                                     </div>
                                     <div className="item-img">
-                                        <img alt="图片加载失败" src={require('../images/zhw_01.jpg')}
-                                            data-src={require('../images/zhw_01.jpg')}
+                                        <img alt="图片加载失败" src={require('../images/lfw_01.png')}
+                                            data-src={require('../images/lfw_01.png')}
                                             onClick={this.showModal} />
-                                        <img alt="图片加载失败" src={require('../images/zhw_02.png')}
-                                            data-src={require('../images/zhw_02.png')}
+                                        <img alt="图片加载失败" src={require('../images/lfw_02.png')}
+                                            data-src={require('../images/lfw_02.png')}
                                             onClick={this.showModal} />
-                                        <img alt="图片加载失败" src={require('../images/zhw_03.png')}
-                                            data-src={require('../images/zhw_03.png')}
+                                        <img alt="图片加载失败" src={require('../images/lfw_03.png')}
+                                            data-src={require('../images/lfw_03.png')}
                                             onClick={this.showModal} />
-                                        <img alt="图片加载失败" src={require('../images/zhw_04.jpg')}
-                                            data-src={require('../images/zhw_04.jpg')}
+                                        <img alt="图片加载失败" src={require('../images/lfw_04.png')}
+                                            data-src={require('../images/lfw_04.png')}
                                             onClick={this.showModal} />
                                         <hr/>
                                         <h2>项目职责：</h2>
                                         <ol start="1">
-                                            <li>使用rem进行页面布局来适配不同的分辨率的移动设备。</li>
                                             <li>页面代码管理及优化，确保响应速度和时间。</li>
+                                            <li>使用rem进行页面布局来适配不同的分辨率的移动设备。</li>
+                                            <li>使用react.js来进行页面编写，使用React Router实现页面的跳转。</li>
                                             <li>Sass预编译技术，webpack工程化管理工具。</li>
-                                            <li>使用react.js来进行页面编写，使用React Router实现页面的跳转及路由。</li>
-                                            <li>借助iscroll.js实现页面懒加载实现游戏列表上拉刷新，swiper来完成轮播效果。</li>
+                                            <li>借助iscroll.js实现页面懒加载实现列表上拉刷新，swiper来完成轮播效果。</li>
                                             <li>利用axios调用数据，完成页面的渲染。</li>
                                         </ol>
                                     </div>
@@ -153,7 +153,7 @@ export default class Project extends React.Component {
                         <Timeline.Item>
                             <div className="project-item">
                                 <div className="item-title">
-                                    建管科技（移动端）（2016/09 -- 2017/01）
+                                   天天果园（移动端）（2016/09 -- 2017/01）
                                     <a className="item-link" href="http://m.jianguanoa.com/#!/index" target="_blank">
                                         <i className="iconfont icon-fuzhilianjie"></i>网址
                                     </a>
@@ -161,44 +161,10 @@ export default class Project extends React.Component {
                                 </div>
                                 <div className="item-info">
                                     <div className="item-desc">
-                                        专注于建筑工程行业管理信息化产品研究、开发、销售及服务的高科技企业。使用后，企业人员不管身在何地，
-                                        都可以随时联网工作，业务数据和审批流程可以实时更新，从而确保管理层及时洞察经营管理问题，抓住稍纵即逝的业务机会
+                                       天天果园是一款鲜食预售平台，用户通过提前预定，即可于次日到店提取新鲜水果、当日生产的鲜食或等待配送上门。
                                     </div>
                                     <div className="item-img">
-                                         <img alt="图片加载失败" src={require('../images/jgkj_01.png')}
-                                            data-src={require('../images/jgkj_01.png')}
-                                            onClick={this.showModal} />
-                                        <img alt="图片加载失败" src={require('../images/jgkj_02.png')}
-                                            data-src={require('../images/jgkj_02.png')}
-                                            onClick={this.showModal} />
-                                        <img alt="图片加载失败" src={require('../images/jgkj_03.png')}
-                                            data-src={require('../images/jgkj_03.png')}
-                                            onClick={this.showModal} />
-                                        <hr/>
-                                        <h2>项目职责：</h2>
-                                        <ol start="1">
-                                            <li>使用弹性盒布局百分比布局。 </li>
-                                            <li>利用vue-cli脚手架进行环境的搭建。</li>
-                                            <li>使用vue2.0框架实现组件化开发，使用webpack管理打包，采用Sass预编译技术。</li>
-                                            <li>使用vue-router实现单页面跳转，页面内页面切换使用二级路由。</li>
-                                            <li>使用axios以及vue-resource模块请求后台数据。</li>
-                                            <li>使用mint-ui插件实现页面结构。</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </Timeline.Item>
-                        <Timeline.Item>
-                            <div className="project-item">
-                                <div className="item-title">
-                                    许鲜网（移动端）（2016/03 -- 2016/06）
-                                </div>
-                                <div className="item-info">
-                                    <div className="item-desc">
-                                        许鲜网是国内领先的鲜食预售平台，用户通过提前预定，即可于次日到店提取新鲜水果、当日生产的鲜食或等待配送上门。
-                                    </div>
-                                    <div className="item-img">
-                                        <img alt="图片加载失败" src={require('../images/xxw_01.jpg')}
+                                         <img alt="图片加载失败" src={require('../images/xxw_01.jpg')}
                                             data-src={require('../images/xxw_01.jpg')}
                                             onClick={this.showModal} />
                                         <img alt="图片加载失败" src={require('../images/xxw_02.png')}
@@ -210,16 +176,52 @@ export default class Project extends React.Component {
                                         <img alt="图片加载失败" src={require('../images/xxw_04.png')}
                                             data-src={require('../images/xxw_04.png')}
                                             onClick={this.showModal} />
+                                        <hr/>
+                                        <h2>项目职责：</h2>
+                                        <ol start="1">
+                                            <li>通过vue-router实现页面间的跳转。 </li>
+                                            <li>使用vuex进行状态管理及公共数据存储。</li>
+                                            <li>Axios获取数据，监听scrolltop的变化对数据异步加载，实现瀑布流组件效果。</li>
+                                            <li>通过对分类页组件内元素的动态绑定，实现click事件触发对应组件加载显示。</li>
+                                            <li>使用swiper插件实现banner图的业务。</li>
+                                            <li>使用mint-ui库实现图片懒加载，提高用户体验。</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </Timeline.Item>
+                        <Timeline.Item>
+                            <div className="project-item">
+                                <div className="item-title">
+                                    品途商业评论（PC端）（2016/03 -- 2016/06）
+                                </div>
+                                <div className="item-info">
+                                    <div className="item-desc">
+                                       提供科技、文娱、零售、消费等产业资讯和深度分析,拥有当前最新信息服务产品。
+                                    </div>
+                                    <div className="item-img">
+                                        <img alt="图片加载失败" src={require('../images/sypt_01.png')}
+                                            data-src={require('../images/sypt_01.png')}
+                                            onClick={this.showModal} />
+                                        <img alt="图片加载失败" src={require('../images/sypt_02.png')}
+                                            data-src={require('../images/sypt_02.png')}
+                                            onClick={this.showModal} />
+                                        <img alt="图片加载失败" src={require('../images/sypt_03.png')}
+                                            data-src={require('../images/sypt_03.png')}
+                                            onClick={this.showModal} />
+                                        <img alt="图片加载失败" src={require('../images/sypt_04.png')}
+                                            data-src={require('../images/sypt_04.png')}
+                                            onClick={this.showModal} />
 
                                         <hr/>
                                         <h2>项目职责：</h2>
                                         <ol start="1">
-                                            <li>实现UI图的100%还原首页，使用原生等实现页面效果，提升页面性能。 </li>
-                                            <li>使用Vue.js+Vuex+Vue-router实现单页面应用，解决Vue父子页面传值，动态刷新。</li>
-                                            <li>使用Vue-axios实现前后台交互渲染新闻列表。</li>
-                                            <li>首页列表页使用Vue-iscroll，swiper插件实现下拉刷新和轮播，加载数据列表。</li>
-                                            <li>使用lazy-load插件实现图片懒加载，提高用户体验。</li>
-                                            <li>使用异步组件实现分页打包，提高初始页面加载速度。</li>
+                                            <li>利用html5+css3对页面进行布局，实现动画效果。 </li>
+                                            <li>利用vue-cli脚手架进行环境的搭建。</li>
+                                            <li>使用vue2.0框架实现组件化开发，使用webpack管理打包，采用Sass预编译技术。</li>
+                                            <li>使用vue-router实现单页面内切换。</li>
+                                            <li>使用axios请求后台数据。</li>
+                                            <li>使用swiper插件进行实现轮播。</li>
                                             <li>运用localStorage解决刷新页面数据丢失问题。</li> 
 
                                         </ol>
